@@ -1,0 +1,1 @@
+[{"userId":"5f63204354f9c","userEmail":"tomvcp@gmail.com","userName":"Tomas Herrou","userPassword":"$2y$10$pzmzsMtc1799KkTgcaXis.NhGAhVlzvs5JbUhN1kx0FyoW0\/eVpzi","Tweets":[]}]

@@ -1,0 +1,140 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{
+  width: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  overflow-y: hidden;
+}
+#page{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20fr 1fr;
+    gap: 1rem;
+    width: 100%;
+    height: 100%
+  }
+
+  .left img{
+      height: 700px;
+      width: 100%
+  }
+  .left{
+    background-color: rgb(113, 201, 248)
+  }
+/* ################################################################# */
+  .right{
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr
+  }
+
+  .right-two{
+      display: grid;
+      grid-template-rows: 1fr 0.5fr 1fr 3fr 0fr 0fr 0fr;
+  }
+
+  .right-two svg {
+    width: 30px;
+    height: 30px;
+    fill: #00ACEE;
+    
+  }
+  .form-container-login form {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-top: 10px;
+      gap: 10px;
+      height: 50px;
+      
+  }
+  .form-container-login input {
+    border: none;
+    background-color: #f5f8fa;
+    border-bottom: 1px solid grey;
+    outline: none;
+  }
+  .form-container-login input:focus{
+    color: #00ACEE;
+    transition: ease-in-out 200ms;
+    border-bottom: 1px solid #00ACEE;
+  }
+  .form-container-login input:focus::-webkit-input-placeholder {
+    color: #00ACEE;
+}
+  input:focus{
+    outline: none;
+  } 
+  .forgot-link {
+      display: grid;
+      justify-items: end;
+      align-items: start;
+      margin-top: 2px;
+  }
+  .forgot-link a{
+      text-decoration: none;
+      color: #00ACEE;
+      font-size: 12px;
+  }
+
+  .tw-icon{
+      display: grid;
+      align-items: end;
+      margin-bottom: 5px;
+  }
+
+
+   .button-signup button{
+    width: 100%;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 0.7em;
+    border-radius: 2rem;
+    color:  white;
+    background: rgba(29, 161, 242, 1);
+    font-weight: bold;
+    outline: none;
+    border: none;
+   }
+   .button-signup button:hover{
+     transition: ease-in-out 200ms;
+    background: rgb(9, 125, 197);
+   }
+
+   .button-login button{
+    width: 100%;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 0.7em;
+    border-radius: 2rem;
+    color:  rgba(29, 161, 242, 1);
+    background: white;
+    font-weight: bold;
+    outline: none;
+    border: 1px solid rgba(29, 161, 242, 1);
+   }
+   .button-login button:hover{
+     transition: ease-in-out 200ms;
+     background: rgb(241, 243, 245)
+
+   }
+/* ################################################################# */
+  .right-three button{ 
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 10px;
+  padding: 0.5em 1em;
+  border: 1px solid rgba(29, 161, 242, 1);
+  border-radius: 2rem;
+  color:  rgba(29, 161, 242, 1);
+  background: none;
+  font-weight: bold;
+  outline: none;
+}
+.right-three button:hover{
+    background-color: rgb(205, 232, 248);
+    transition: ease-in-out 200ms
+}
